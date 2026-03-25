@@ -31,6 +31,12 @@ It is designed for researchers working over SSH on Linux servers who need to ins
 
 ## Installation
 
+### From crates.io
+
+```bash
+cargo install ferrolens
+```
+
 ### From source
 
 ```bash
@@ -38,13 +44,6 @@ git clone https://github.com/H3dger/ferrolens.git ferrolens
 cd ferrolens
 cargo run -- --help
 ```
-
-### Future release install targets
-
-Planned P0/P1 distribution targets:
-
-- `cargo install ferrolens`
-- GitHub Releases with prebuilt binaries for Linux/macOS
 
 ## Quick start
 
