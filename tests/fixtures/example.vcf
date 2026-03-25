@@ -1,0 +1,7 @@
+##fileformat=VCFv4.2
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Fraction">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE1
+chr1	12345	rs1	A	G	60	PASS	DP=42;AF=0.52;ZZ=note	GT:AD	0/1:20,22
