@@ -2,6 +2,13 @@
 name = "ferrolens"
 version = "0.1.0"
 edition = "2021"
+description = "A terminal-first review lens for bioinformatics result tables"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/H3dger/ferrolens"
+homepage = "https://github.com/H3dger/ferrolens"
+keywords = ["bioinformatics", "tui", "csv", "vcf", "terminal"]
+categories = ["command-line-utilities", "science"]
 
 [lib]
 name = "ferrolens"
